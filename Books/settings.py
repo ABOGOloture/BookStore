@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tu_g$y4fu5v$0b!i*95x$t)i7nqbb0g562fc_!e&!b*al)!9*m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['git.heroku.com/hosptest20.git', '127.0.0.1']
 
 
 # Application definition
